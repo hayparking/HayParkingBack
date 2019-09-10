@@ -1,11 +1,7 @@
 {
-  "name": "hay_parking_back",
-  "version": "1.0.0",
-  "description": "Proyecto base de la aplicacion HayParkingBack",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "hay-parking-back",
+  "version": "0.1.0",
+  "private": true,
   "author": "HayParkingTeam",
   "license": "MIT",
   "dependencies": {
@@ -18,7 +14,16 @@
     "mongoose": "^5.6.13",
     "mongoose-pagination": "^1.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.2"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
