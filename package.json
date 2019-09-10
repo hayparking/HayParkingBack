@@ -1,12 +1,12 @@
 {
-  "name": "proyectohayparking",
+  "name": "HayParkingBack",
   "version": "1.0.0",
-  "description": "Proyecto base de la aplicacion HayParking",
+  "description": "Proyecto base de la aplicacion HayParkingBack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "HayParkingTeam",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
