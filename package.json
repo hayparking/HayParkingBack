@@ -1,5 +1,5 @@
 {
-  "name": "HayParkingBack",
+  "name": "hay_parking_back",
   "version": "1.0.0",
   "description": "Proyecto base de la aplicacion HayParkingBack",
   "main": "index.js",
