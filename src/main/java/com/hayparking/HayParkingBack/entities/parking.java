@@ -10,6 +10,8 @@ public class parking {
     private String observations;
     private parkingBilling billing;
     private owner owner;
+    private Long quotas;
+    private Long costPerMinute;
 
     public parking() {
     }
@@ -52,6 +54,22 @@ public class parking {
 
     public void setOwner(owner owner) {
         this.owner = owner;
+    }
+
+    public Long getQuotas() {
+        return quotas;
+    }
+
+    public void setQuotas(Long quotas) {
+        this.quotas = quotas;
+    }
+
+    public Long getCostPerMinute() {
+        return costPerMinute;
+    }
+
+    public void setCostPerMinute(Long costPerMinute) {
+        this.costPerMinute = costPerMinute;
     }
     
 }
