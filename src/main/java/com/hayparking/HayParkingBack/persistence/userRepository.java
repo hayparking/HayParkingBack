@@ -2,15 +2,15 @@ package com.hayparking.HayParkingBack.persistence;
 
 import java.util.List;
 
-import com.hayparking.HayParkingBack.entities.user;
+import com.hayparking.HayParkingBack.entities.User;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
  * userRepository
  */
-public interface userRepository extends MongoRepository<user, String>{
+public interface userRepository extends MongoRepository<User, String>{
 
-    List<user> findAll();
-    user findUser(String email);
+    List<User> findAll();
+    User findByEmail(String email);
 }

@@ -6,7 +6,7 @@ import org.springframework.data.annotation.Id;
 /**
  * user
  */
-public class user {
+public class User {
     @Id
     public ObjectId _id;
 
@@ -17,8 +17,19 @@ public class user {
     private String password;
     private String passwordConfirm;
 
-    public user() {
+    public User() {
     }
+
+    public User(String name, String lastName, String address, String email, String password, String passwordConfirm) {
+        this.name = name;
+        this.lastName = lastName;
+        this.address = address;
+        this.email = email;
+        this.password = password;
+        this.passwordConfirm = passwordConfirm;
+    }
+    
+    
 
     public String getName() {
         return name;
