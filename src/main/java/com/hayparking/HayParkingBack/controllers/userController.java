@@ -42,7 +42,7 @@ public class userController {
         }
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/{email}")
     public ResponseEntity<?> consultUser(@PathVariable String email) {
         try {
             return new ResponseEntity<>(usserv.findUser(email), HttpStatus.ACCEPTED);
